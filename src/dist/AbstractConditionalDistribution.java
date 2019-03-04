@@ -17,7 +17,7 @@ public abstract class AbstractConditionalDistribution extends AbstractDistributi
     public Instance sample(Instance i) {
         return distributionFor(i).sample();
     }
-    
+
     /**
      * Generate a output that is most likely given the input
      * @param i the input
@@ -26,7 +26,7 @@ public abstract class AbstractConditionalDistribution extends AbstractDistributi
     public Instance mode(Instance i) {
         return distributionFor(i).sample();
     }
-    
+
     /**
      * Probability of an instance
      * @parma i the instance
